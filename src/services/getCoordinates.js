@@ -6,7 +6,7 @@ export const getCoordinates = async () => {
     
     return {
       latitude: position.coords.latitude,
-      longitude: position.coords.latitude,
+      longitude: position.coords.longitude,
     };
   } catch (_) {
     return null;
